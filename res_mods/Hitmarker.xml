@@ -1,0 +1,8 @@
+<Hitmarker.xml>
+	<showMarker>True</showMarker> <!-- True/False for the marker, it will still play the sound!-->
+	<playSound>True</playSound>
+	<timeOnScreen>1.5</timeOnScreen>
+	<size>32</size>
+</Hitmarker.xml>
+
+
