@@ -1,8 +1,12 @@
 <Hitmarker.xml>
 	<showMarker>True</showMarker> <!-- True/False for the marker, it will still play the sound!-->
-	<playSound>True</playSound>
-	<timeOnScreen>1.5</timeOnScreen>
-	<size>32</size>
+	<Markers> <!-- show markers for special kinds of damage, if they're disabled the normal hitmarker will be shown if enabled -->
+		<Fire>False</Fire> <!-- orange hitmarker for fire damage ticks -->
+		<Kill>False</Kill> <!-- red himarker for kills -->
+	</Markers>
+	<playSound>True</playSound> 
+	<timeOnScreen>1.5</timeOnScreen>  <!-- time in seconds the hitmakrer stays on the screen -->
+	<size>32</size> <!-- size of the hitmarker in pixels -->
 </Hitmarker.xml>
 
 
