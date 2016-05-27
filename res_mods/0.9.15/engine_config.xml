@@ -133,6 +133,7 @@
   </log_console>
   <soundMgr>
     <enabled>	true	</enabled>
+    <errorLevel>warning</errorLevel>
     <wwmediaPath>audioww</wwmediaPath>
     <highPriorityBankThread>	true	</highPriorityBankThread>
     <WWISE_active_profile>WWISE_adv_profile</WWISE_active_profile>
@@ -305,28 +306,10 @@
           <name>hangar_prem_v2.bnk</name>
         </project>
         <project>
-          <name>hangar_h09_bday_CN_2016.bnk</name>
-        </project>
-        <project>
           <name>hangar_premium_IGR.bnk</name>
         </project>
         <project>
           <name>hangar_v2.bnk</name>
-        </project>
-        <project>
-          <name>hangar_victory_day.bnk</name>
-        </project>
-        <project>
-          <name>hangar_12_bday_EU_2015.bnk</name>
-        </project>
-        <project>
-          <name>hangar_26_april_Asia.bnk</name>
-        </project>
-        <project>
-          <name>hangar_premium_1may.bnk</name>
-        </project>
-        <project>
-          <name>hangar_h11_WGL_GrandFinal_2016.bnk</name>
         </project>
         <project>
           <name>fort_area.bnk</name>
@@ -344,4 +327,13 @@
     <file>game.log<enabled>	true	</enabled><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB></file>
     <file>python.log<enabled>	true	</enabled><source>SCRIPT</source><openMode>a</openMode><maxSizeKB>	200	</maxSizeKB><trimToKB>	50	</trimToKB></file>
   </logging>
+  <webBrowser>
+    <processExePath>cef/cef_browser_process.exe</processExePath>
+    <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 WOWS/1.0</userAgent>
+    <cachePath>profile/cef_cache</cachePath>
+    <hardwareAcceleration>	false	</hardwareAcceleration>
+    <logFile>cef.log</logFile>
+    <logVerbosity>warning</logVerbosity>
+    <enableFlash>	true	</enableFlash>
+  </webBrowser>
 </engine_config.xml>
