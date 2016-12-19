@@ -55,7 +55,7 @@
     <name>	screenshots/shot	</name>
   </screenShot>
   <superShot>
-    <hRes>	2048	</hRes>
+    <hRes>	4096	</hRes>
     <farPlaneDist>	1500	</farPlaneDist>
     <floraVBSize>	16000000	</floraVBSize>
     <disableGUI>	true	</disableGUI>
@@ -161,6 +161,13 @@
         <streamingPool>	2	</streamingPool>
         <IOPoolSize>	4	</IOPoolSize>
       </memoryManager>
+      <editorMemoryManager>
+        <defaultPool>	20	</defaultPool>
+        <lowEnginePool>	20	</lowEnginePool>
+        <preparedPool>	106	</preparedPool>
+        <streamingPool>	4	</streamingPool>
+        <IOPoolSize>	6	</IOPoolSize>
+      </editorMemoryManager>
       <soundRender>
         <use_config>	false	</use_config>
         <HDR_lower_threshold>	-50	</HDR_lower_threshold>
@@ -238,8 +245,6 @@
         <project>
           <name>wpn.pck</name>
         </project>
-      </SFX_soundbanks_loadonce>
-      <SFX_soundbanks_common>
         <project>
           <name>gui.bnk</name>
         </project>
@@ -249,7 +254,7 @@
         <project>
           <name>utility.bnk</name>
         </project>
-      </SFX_soundbanks_common>
+      </SFX_soundbanks_loadonce>
       <SFX_soundbanks_login>
         <project>
           <name>hangar_v2.bnk</name>
@@ -325,15 +330,18 @@
         <project>
           <name>tutorial_voice.bnk</name>
         </project>
+        <project>
+          <name>mechanisms.bnk</name>
+        </project>
       </SFX_soundbanks_arena>
-      <SFX_soundbanks_hangar>
+      <SFX_soundbanks_editor>
         <project>
           <name>hangar_v2.bnk</name>
         </project>
         <project>
           <name>fort_area.bnk</name>
         </project>
-      </SFX_soundbanks_hangar>
+      </SFX_soundbanks_editor>
     </WWISE_adv_profile>
   </soundMgr>
   <logging>
@@ -358,5 +366,7 @@
     <maxFrameRate>	0	</maxFrameRate>
     <acceptLangList>
     </acceptLangList>
+    <locale>
+    </locale>
   </webBrowser>
 </engine_config.xml>
