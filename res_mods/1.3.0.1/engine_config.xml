@@ -48,6 +48,14 @@
       <LOW>0.25</LOW>
       <MIN>	0	</MIN>
     </streaming>
+    <ObjectsFarPlaneManager>
+      <cullVolume>	2800	</cullVolume>
+      <decalCullDistance>	400	</decalCullDistance>
+      <controlPointCullDistance>	1400	</controlPointCullDistance>
+    </ObjectsFarPlaneManager>
+    <StreamedTexturePrecache>
+      <Mode>	AUTO	</Mode>
+    </StreamedTexturePrecache>
   </renderer>
   <influx>
     <force_use_bw_collision>	true	</force_use_bw_collision>
@@ -161,6 +169,7 @@
     <wwmediaPath>audioww</wwmediaPath>
     <highPriorityBankThread>	true	</highPriorityBankThread>
     <WWISE_active_profile>WWISE_adv_profile</WWISE_active_profile>
+    <WWISE_emergency_profile>WWISE_low_profile</WWISE_emergency_profile>
     <WWISE_adv_profile>
       <memoryManager>
         <defaultPool>	64	</defaultPool>
@@ -198,6 +207,230 @@
         <project>
           <name>damage.pck</name>
         </project>
+        <project>
+          <name>epic_battle.bnk</name>
+        </project>
+        <project>
+          <name>eng_continental_R975.pck</name>
+        </project>
+        <project>
+          <name>eng_continentalR.pck</name>
+        </project>
+        <project>
+          <name>eng_ford.pck</name>
+        </project>
+        <project>
+          <name>eng_gaz_aa.pck</name>
+        </project>
+        <project>
+          <name>eng_cadillac_s42.pck</name>
+        </project>
+        <project>
+          <name>eng_hetzer.pck</name>
+        </project>
+        <project>
+          <name>eng_v55.pck</name>
+        </project>
+        <project>
+          <name>explosive_objects.pck</name>
+        </project>
+        <project>
+          <name>objects.pck</name>
+        </project>
+        <project>
+          <name>objects_generative.pck</name>
+        </project>
+        <project>
+          <name>plane.pck</name>
+        </project>
+        <project>
+          <name>streams.pck</name>
+        </project>
+        <project>
+          <name>treads_pc.pck</name>
+        </project>
+        <project>
+          <name>treads_npc.pck</name>
+        </project>
+        <project>
+          <name>turret.pck</name>
+        </project>
+        <project>
+          <name>gun_reload.pck</name>
+        </project>
+        <project>
+          <name>wpn.pck</name>
+        </project>
+        <project>
+          <name>gui.bnk</name>
+        </project>
+        <project>
+          <name>gui_ranked_battles.pck</name>
+        </project>
+        <project>
+          <name>epic_battle.pck</name>
+        </project>
+        <project>
+          <name>utility.bnk</name>
+        </project>
+        <project>
+          <name>music_interactive.bnk</name>
+        </project>
+        <project>
+          <name>music_interactive.pck</name>
+        </project>
+        <project>
+          <name>wheel_vehicle_GUI.pck</name>
+        </project>
+        <project>
+          <name>plugin_media.bnk</name>
+        </project>
+      </SFX_soundbanks_loadonce>
+      <SFX_soundbanks_hangar>
+        <project>
+          <name>fort_area.bnk</name>
+        </project>
+        <project>
+          <name>gui_ranked_battles.bnk</name>
+        </project>
+        <project>
+          <name>Personal_missions.bnk</name>
+        </project>
+        <project>
+          <name>customization.bnk</name>
+        </project>
+        <project>
+          <name>shop.bnk</name>
+        </project>
+        <project>
+          <name>gui_lootboxes.bnk</name>
+        </project>
+      </SFX_soundbanks_hangar>
+      <SFX_soundbanks_login>
+        <project>
+          <name>loginscreen.bnk</name>
+        </project>
+      </SFX_soundbanks_login>
+      <SFX_soundbanks_arena>
+        <project>
+          <name>ambient.bnk</name>
+        </project>
+        <project>
+          <name>ambient_2D.bnk</name>
+        </project>
+        <project>
+          <name>damage.bnk</name>
+        </project>
+        <project>
+          <name>explosive_objects.bnk</name>
+        </project>
+        <project>
+          <name>objects.bnk</name>
+        </project>
+        <project>
+          <name>objects_generative.bnk</name>
+        </project>
+        <project>
+          <name>plane.bnk</name>
+        </project>
+        <project>
+          <name>turret.bnk</name>
+        </project>
+        <project>
+          <name>combat_atmosphere.bnk</name>
+        </project>
+        <project>
+          <name>eng_continental_R975.bnk</name>
+        </project>
+        <project>
+          <name>eng_continentalR.bnk</name>
+        </project>
+        <project>
+          <name>eng_ford.bnk</name>
+        </project>
+        <project>
+          <name>eng_v55.bnk</name>
+        </project>
+        <project>
+          <name>eng_hetzer.bnk</name>
+        </project>
+        <project>
+          <name>eng_gaz_aa.bnk</name>
+        </project>
+        <project>
+          <name>eng_cadillac_s42.bnk</name>
+        </project>
+        <project>
+          <name>treads_pc.bnk</name>
+        </project>
+        <project>
+          <name>treads_npc.bnk</name>
+        </project>
+        <project>
+          <name>expl.bnk</name>
+        </project>
+        <project>
+          <name>impacts_full.bnk</name>
+        </project>
+        <project>
+          <name>phys_coll.bnk</name>
+        </project>
+        <project>
+          <name>psb.bnk</name>
+        </project>
+        <project>
+          <name>damaged_modules.bnk</name>
+        </project>
+        <project>
+          <name>wpn.bnk</name>
+        </project>
+        <project>
+          <name>gun_reload.bnk</name>
+        </project>
+        <project>
+          <name>mechanisms.bnk</name>
+        </project>
+        <project>
+          <name>wheel_vehicle_GUI.bnk</name>
+        </project>
+      </SFX_soundbanks_arena>
+      <SFX_soundbanks_editor>
+        <project>
+          <name>fort_area.bnk</name>
+        </project>
+        <project>
+          <name>objects.bnk</name>
+        </project>
+        <project>
+          <name>objects_generative.bnk</name>
+        </project>
+        <project>
+          <name>explosive_objects.bnk</name>
+        </project>
+      </SFX_soundbanks_editor>
+    </WWISE_adv_profile>
+    <WWISE_low_profile>
+      <memoryManager>
+        <defaultPool>	8	</defaultPool>
+        <lowEnginePool>	6	</lowEnginePool>
+        <streamingPool>	2	</streamingPool>
+        <IOPoolSize>	4	</IOPoolSize>
+        <IOGranularity>	16	</IOGranularity>
+      </memoryManager>
+      <soundRender>
+        <use_config>	true	</use_config>
+        <HDR_lower_threshold>	-40	</HDR_lower_threshold>
+        <max_voices>	70	</max_voices>
+        <low_sample_rate>	false	</low_sample_rate>
+        <ambients>	false	</ambients>
+        <reverbs>	false	</reverbs>
+      </soundRender>
+      <voice_soundbanks>
+        <project>
+          <name>voiceover.bnk</name>
+        </project>
+      </voice_soundbanks>
+      <SFX_soundbanks_loadonce>
         <project>
           <name>eng_continental_R975.pck</name>
         </project>
@@ -256,27 +489,12 @@
           <name>utility.bnk</name>
         </project>
         <project>
-          <name>music_interactive.bnk</name>
-        </project>
-        <project>
-          <name>music_interactive.pck</name>
-        </project>
-        <project>
           <name>plugin_media.bnk</name>
-        </project>
-        <project>
-          <name>epic_battle.bnk</name>
-        </project>
-        <project>
-          <name>epic_battle.pck</name>
         </project>
       </SFX_soundbanks_loadonce>
       <SFX_soundbanks_hangar>
         <project>
           <name>fort_area.bnk</name>
-        </project>
-        <project>
-          <name>hangar_v2.bnk</name>
         </project>
         <project>
           <name>gui_ranked_battles.bnk</name>
@@ -287,6 +505,9 @@
         <project>
           <name>customization.bnk</name>
         </project>
+        <project>
+          <name>shop.bnk</name>
+        </project>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
         <project>
@@ -295,31 +516,10 @@
       </SFX_soundbanks_login>
       <SFX_soundbanks_arena>
         <project>
-          <name>ambient.bnk</name>
-        </project>
-        <project>
-          <name>ambient_2D.bnk</name>
-        </project>
-        <project>
           <name>damage.bnk</name>
         </project>
         <project>
-          <name>explosive_objects.bnk</name>
-        </project>
-        <project>
-          <name>objects.bnk</name>
-        </project>
-        <project>
-          <name>objects_generative.bnk</name>
-        </project>
-        <project>
-          <name>plane.bnk</name>
-        </project>
-        <project>
           <name>turret.bnk</name>
-        </project>
-        <project>
-          <name>combat_atmosphere.bnk</name>
         </project>
         <project>
           <name>eng_continental_R975.bnk</name>
@@ -350,9 +550,6 @@
         </project>
         <project>
           <name>impacts_full.bnk</name>
-        </project>
-        <project>
-          <name>phys_coll.bnk</name>
         </project>
         <project>
           <name>psb.bnk</name>
@@ -387,7 +584,7 @@
           <name>explosive_objects.bnk</name>
         </project>
       </SFX_soundbanks_editor>
-    </WWISE_adv_profile>
+    </WWISE_low_profile>
   </soundMgr>
   <logging>
     <suppress>
@@ -400,7 +597,7 @@
     <file>python.log<enabled>	true	</enabled><source>SCRIPT</source><openMode>a</openMode><maxSizeKB>	2048	</maxSizeKB><trimToKB>	512	</trimToKB><showTime>	true	</showTime><disableBuffering>	false	</disableBuffering><messageLength>	8192	</messageLength></file>
   </logging>
   <webBrowser>
-    <processExePath>cef/cef_browser_process.exe</processExePath>
+    <processExePath>cef/cef_browser_process</processExePath>
     <userAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 WOWS/1.0</userAgent>
     <cachePath>profile/cef_cache</cachePath>
     <hardwareAcceleration>	false	</hardwareAcceleration>
