@@ -7,6 +7,7 @@
 	<playSound>True</playSound> 
 	<timeOnScreen>1.5</timeOnScreen>  <!-- time in seconds the hitmakrer stays on the screen -->
 	<size>32</size> <!-- size of the hitmarker in pixels -->
+	<debug>False</debug> <!-- write debug information to python.log-->
 </Hitmarker.xml>
 
 
